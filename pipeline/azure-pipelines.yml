@@ -29,7 +29,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: '38111079-0712-474b-bb41-a9e47cc3f663'
+    azureSubscription: 'MyWebJava'
     appType: 'webAppLinux'
     appName: 'javawebapptest'
     resourceGroupName: 'rg-devops'
